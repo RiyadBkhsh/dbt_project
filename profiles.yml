@@ -1,19 +1,19 @@
-dbt_project:
-  outputs:
-    dev:
-      catalog: dbt_tutorial_dev
-      host: dbc-64f0938a-d117.cloud.databricks.com
-      http_path: /sql/1.0/warehouses/02430606846178d3
-      schema: default
-      threads: 1
-      token: dapi9c5068e8c3e22ece8304e895a6497e95
-      type: databricks
-    prod:
+dbt_project :
+  outputs :
+  dev:
+    catalog: dbt_tutorial_dev
+    host: dbc-64f0938a-d117.cloud.databricks.com
+    http_path: /sql/1.0/warehouses/02430606846178d3
+    schema: default
+    threads: 1
+    token: dapic0a3f46844ebdf77b0686f018d910f5d
+    type: databricks
+  prod:
       catalog: dbt_tutorial_prod
       host: dbc-64f0938a-d117.cloud.databricks.com
       http_path: /sql/1.0/warehouses/02430606846178d3
       schema: default
       threads: 1
-      token: dapi9c5068e8c3e22ece8304e895a6497e95
+      token: dapic0a3f46844ebdf77b0686f018d910f5d
       type: databricks
   target: dev
